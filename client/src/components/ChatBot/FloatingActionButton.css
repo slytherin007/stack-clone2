@@ -1,0 +1,29 @@
+.floatBtn{
+    display: grid;
+    place-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    font-size: 25px;
+    background: #ec5e06;
+    color: #fff;
+    transition: .2s;
+}
+.floatBtn svg path{
+    stroke: #fff;
+    fill: #fff;
+}
+.floatBtn:hover{
+    background: #ec5e06;
+    box-shadow: 0 0 20px 0 #e4780c7c;
+}
+.activeBtn{
+    background: b617f0;
+    box-shadow: 0 0 20px 0 #e4780c7c;
+}
