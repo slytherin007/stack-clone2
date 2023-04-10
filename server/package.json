@@ -9,7 +9,7 @@
     "dev": "nodemon index.js",
     "build":"npm i"
   },
-  "author": "Mohd Shahnawaz",
+  "author": "Ashwini Bhide",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
